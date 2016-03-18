@@ -1,0 +1,85 @@
+/*nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.pages {
+	margin-left: 10%;
+}
+
+
+.active {
+background-color:#4CAF50;
+
+}
+
+.nav {
+	width: 100%;
+}
+
+/*body*/
+body {
+	
+	font-family: 'Lato', sans-serif;
+	
+	
+}
+.background {
+	background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.75)), url(https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=970fc3abc6adccda140c4135c4f9c274);
+	background-size: 100%;
+}
+
+img {
+	display: inline;
+	margin-left: 10%;
+    padding-top: 25px;
+}
+
+.text {
+	padding: 40px;
+	margin: 30px 10%;
+	background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    color: black;
+    font-weight: bold;
+
+}
+.text p {
+    margin: 5%;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.header {
+	text-shadow: 4px grey;
+	float: right;
+	margin-right: 10%;
+}
+
+.text p {
+	color: black;
+}
